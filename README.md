@@ -72,7 +72,7 @@ F1 score: 72.08%
 - Saved the trained model as a file (loan_prediction.pkl) using the pickle library.
 - This allows for easy loading and reuse of the model in the future.
 
-### Step 7: Create API and deploy model to AWS
+### Step 7: Create API and deploy model to AWS (Unable to complete this step will deploy on local instead)
 - Deployed the model on an AWS instance using Flask to create an API.
 - Tested the API to ensure it returns predictions accurately.
 
@@ -82,6 +82,7 @@ F1 score: 72.08%
 - Best Score: 0.8157865937072504
 
 ## Challanges 
-Connecting to the AWS instance after disconnecting had a lot of troubleshooting.
+Connecting to the AWS instance after disconnecting had a lot of troubleshooting. Connection issues was unable to deploy on the cloud.
+Was only able to deploy using the curl command 
 
 ## Future Goals
